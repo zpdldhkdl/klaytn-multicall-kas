@@ -26,7 +26,7 @@ yarn add klaytn-multicall-kas
 ```js
 require("dotenv").config();
 
-const { Provider } = require("./src");
+const { Provider } = require("klaytn-multicall-kas");
 
 const CaverExtKAS = require("caver-js-ext-kas");
 
